@@ -1,0 +1,49 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "axios": "^1.6.8",
+        "laravel-vite-plugin": "^1.0.0",
+        "sass": "^1.77.1",
+        "vite": "^5.0.0",
+        "vite-plugin-pwa": "^0.20.0"
+    },
+    "dependencies": {
+        "@coreui/coreui-pro": "^5.1.0",
+        "@coreui/icons": "^3.0.1",
+        "@coreui/icons-pro": "^3.0.0",
+        "@coreui/icons-react": "^2.2.1",
+        "@coreui/react": "^5.0.0",
+        "@coreui/react-chartjs": "^3.0.0",
+        "@coreui/react-pro": "^5.1.0",
+        "@coreui/utils": "^2.0.2",
+        "@vitejs/plugin-react": "^4.2.1",
+        "bootstrap": "^5.3.3",
+        "bootstrap-icons": "^1.11.3",
+        "date-fns": "^3.6.0",
+        "date-fns-jalali": "^3.6.0-0",
+        "file-saver": "^2.0.5",
+        "jszip": "^3.10.1",
+        "moment": "^2.30.1",
+        "moment-jalaali": "^0.10.1",
+        "react": "^18.3.1",
+        "react-app-polyfill": "^3.0.0",
+        "react-csv": "^2.2.2",
+        "react-dom": "^18.3.1",
+        "react-jdate-picker": "^0.5.2",
+        "react-redux": "^9.1.2",
+        "react-router-dom": "^6.23.1",
+        "react-select": "^5.8.0",
+        "redux": "^5.0.1",
+        "simplebar": "^6.2.6",
+        "simplebar-react": "^3.2.5",
+        "sweetalert2": "^11.6.13",
+        "web-vitals": "^3.5.2",
+        "workbox-cli": "^7.1.0",
+        "workbox-webpack-plugin": "^7.1.0"
+    }
+}

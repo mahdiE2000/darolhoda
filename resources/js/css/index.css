@@ -1,0 +1,71 @@
+@font-face {
+    font-family: vazir;
+    font-style: normal;
+    font-weight: 100;
+    src: url("../fonts/Vazir-Black-FD.eot");
+    src: url("../fonts/Vazir-Black-FD.woff") format("woff"),
+      url("../fonts/Vazir-Black-FD.ttf") format("ttf"),
+      url("../fonts/Vazir-Black-FD.woff2") format("woff2");
+  }
+
+td, th
+ {
+    text-align: center;
+ }
+
+ body {
+    font-family: vazir;
+ }
+
+ .icon-hover-danger:hover{
+    --ci-primary-color: white;
+    background-color: red;
+    border-radius: 20px
+ }
+
+ ::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of the scrollbar track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar handle */
+    border-radius: 20px; /* Border radius to create a tablet shape */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the scrollbar handle on hover */
+}
+
+
+.table-responsive {
+    max-height: 400px; /* Set your desired max height */
+    overflow-y: auto;  /* Enable vertical scrolling */
+    position: relative; /* Ensure positioning context for sticky headers */
+  }
+
+  .table-responsive table {
+    width: 100%; /* Ensure the table takes the full width */
+    border-collapse: collapse; /* Optional: For a better look */
+  }
+
+  .table-responsive thead {
+    position: sticky; /* Make the headers sticky */
+    top: -1px; /* Stick to the top */
+    background-color: white; /* Ensure the header has a background */
+    z-index: 1; /* Ensure the headers are above the table body */
+    border: 41px solid black;
+  }
+  /* Optional: Add some styling to make the table look better */
+  .table-responsive thead, .table-responsive td {
+    padding: 8px; /* Adjust padding as needed */
+    border: 1px solid #ddd; /* Add a border */
+    text-align: center; /* Align text */
+  }
+
